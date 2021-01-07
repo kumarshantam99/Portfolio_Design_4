@@ -422,6 +422,13 @@ body {
 
 .s6 .contact i {
   margin-bottom: 30px;
+  -webkit-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+}
+
+.s6 .contact i:hover {
+  -webkit-transform: translate(-1px, 1px) scale(0.75);
+          transform: translate(-1px, 1px) scale(0.75);
 }
 
 .fp-slidesNav.fp-bottom ul {
