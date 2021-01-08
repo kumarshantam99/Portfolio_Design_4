@@ -695,6 +695,12 @@ justify-content:space-between;
       .wrapper{
         margin-left: 5%;
         margin-top: 20px;
+        .card{
+          width:300px;
+          h1{
+            font-size:40px;font-weight: 700;
+          }
+        }
       }
       
     }
@@ -728,11 +734,18 @@ justify-content:space-between;
         height:80%;
         .upper-row{
           h2{
-            margin-top: -15px;
-            font-size:1.3em;
+            margin-top: -45px;
+            font-size:1.1em;
+          }img{
+            margin-top: -45px;
           }
         }
-
+        h4{
+          font-size:medium;
+        }
+        h5{
+          font-size:medium;
+        }
        ul{
          li{
           font-size:smaller;
