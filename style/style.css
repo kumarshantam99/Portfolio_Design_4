@@ -678,7 +678,8 @@ body {
     margin-top: 20px;
   }
   .s1 .wrapper .card {
-    width: 300px;
+    width: 280px;
+    height: 150px;
   }
   .s1 .wrapper .card h1 {
     font-size: 40px;
