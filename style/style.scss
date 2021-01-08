@@ -43,7 +43,12 @@
   box-shadow: 10px 10px 10px rgba(46,54,68,0.03);
   font-family: 'Quicksand', sans-serif;
     }
+
+    .intro-img{
+      display:none;
+    }
 }
+
 
 .wrapper {
     position: absolute;
@@ -341,6 +346,7 @@
   box-shadow: 10px 10px 10px rgba(46,54,68,0.03);
 justify-content:space-between;
       ul{
+        text-align: justify;
         li{
           flex:1;
         }
@@ -577,6 +583,7 @@ justify-content:space-between;
       .card-3{
         max-width: 70%;
         height: 490px;
+        padding: 30px 40px 40px;
         .col-1{
           h5{
             margin-bottom: 35px;
@@ -584,16 +591,24 @@ justify-content:space-between;
           img{
             margin-left: 20%;
             margin-top:-10px;
+            width:50px;
+            height: 50px;
+            margin-bottom: -10px;
           }
           p{
             font-size: smaller;
+            text-align:justify;
+            margin-top:-18px;
           }
           h4{
             font-size: smaller;
 
           }
+         
           span{
+            position: absolute;
             font-size: smaller;
+            
           }
           h5{
             font-size: smaller;
@@ -605,9 +620,12 @@ justify-content:space-between;
             margin-bottom: 35px;
           }
           img{
-            width:90px;height: 90px;
+            
             margin-left: 20%;
             margin-top:-10px;
+            width:50px;
+            height: 50px;
+            margin-bottom: -10px;
           }
           p{
             font-size: smaller;
@@ -659,6 +677,7 @@ justify-content:space-between;
           margin-left:30px;
           margin-top: -10px;
           font-size: smaller;
+          text-align:justify;
         }
 
 
@@ -666,6 +685,18 @@ justify-content:space-between;
     }}
     .fp-slidesNav.fp-bottom{
       margin-bottom: -20px;
+    }
+    #fp-nav{
+      ul{
+        margin-left:-25%;
+      }
+    }
+    #fp-nav ul li .fp-tooltip{
+      font-size:0.8em;
+      background-color: transparent;
+      margin-top:-15px;margin-left: -40px;
+      
+      
     }
   }
 
@@ -679,7 +710,7 @@ justify-content:space-between;
     #fp-nav ul li .fp-tooltip{
       font-size:0.8em;
       background-color: transparent;
-      margin-top:-15px;margin-left: -30px;
+      margin-top:-15px;margin-left: -35px;
       
       
     }
@@ -737,6 +768,7 @@ justify-content:space-between;
           h2{
             margin-top: -45px;
             font-size:1.1em;
+            margin-bottom: -5px;
           }img{
             margin-top: -45px;
           }
@@ -744,7 +776,7 @@ justify-content:space-between;
         h4{
           font-size:medium;
         }
-        h5{
+        h3{
           font-size:medium;
         }
        ul{
@@ -763,8 +795,8 @@ justify-content:space-between;
     .s4{
       .fp-slide{
       .card-3{
-        max-width: 70%;
-        height: 90%;
+        max-width: 80%;
+        height: 95%;
         .col-1{
           h5{
             margin-bottom: 35px;
@@ -772,6 +804,9 @@ justify-content:space-between;
           img{
             margin-left: 20%;
             margin-top:-10px;
+            width:50px;
+            height: 50px;
+            margin-bottom: -10px;
           }
           p{
             font-size: smaller;
@@ -797,6 +832,9 @@ justify-content:space-between;
             width:90px;height: 90px;
             margin-left: 20%;
             margin-top:-10px;
+            width:50px;
+            height: 50px;
+            margin-bottom: -10px;
           }
           p{
             font-size: smaller;
@@ -807,6 +845,7 @@ justify-content:space-between;
           }
           span{
             font-size: smaller;
+            
           }
           h5{
             font-size: smaller;
@@ -845,7 +884,7 @@ justify-content:space-between;
         }
         ul{
           width:200px;
-          margin-left:20px;
+          margin-left:5px;
           margin-top: -10px;
           font-size: smaller;
         }
@@ -859,11 +898,48 @@ justify-content:space-between;
     .s6{
       .call{
         i{
-          margin-left: -10px;
+          margin-left: -5px;
+        }
+        h3{
+          font-size: smaller;
         }
       }
     }
     .fp-slidesNav.fp-bottom{
       bottom:5px;
+    }
+  }
+
+  @media only screen and (max-width: 325px){
+
+    .s2{
+      #card-1{
+        img{
+          width: 200px;height: 220px;
+        }
+        p{
+          width:240px;
+        }
+      }
+    }
+    .s4{
+      .fp-slide{
+        .card-3{
+          
+          padding:10px;
+          .col-1{
+            img{
+              display:none;
+            }
+          }
+          .col-2{
+            img{
+              display:none;
+            }
+           
+          }
+
+        }
+      }
     }
   }
