@@ -391,10 +391,6 @@ body {
           flex: 1;
 }
 
-.s6 {
-  position: relative;
-}
-
 .s6 .contact {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -442,6 +438,10 @@ body {
           clip-path: inset(0 100% 1% 0);
   -webkit-transition: 0.5s ease;
   transition: 0.5s ease;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  min-width: 200px;
 }
 
 .s6 .contact .call:hover h3 {
@@ -678,7 +678,7 @@ body {
     margin-top: 20px;
   }
   .s1 .wrapper .card {
-    width: 280px;
+    width: 300px;
     height: 150px;
   }
   .s1 .wrapper .card h1 {
